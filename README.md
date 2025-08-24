@@ -1,11 +1,15 @@
-# Template_Python_Project
+# Premier League Data Analysis
 
-1. Run setup.bat
-2. Create .env file
-3. Store any necessary variables in .env to be shared across files
+## Data
 
-Ex .env:
+The dataset used in this repo has been extracted from [a kaggle dataset post by Daniel Ijezie](https://www.kaggle.com/datasets/danielijezie/premier-league-data-from-2016-to-2024).
 
-CLASSES_DIR=D:\Project Path\model
-READ_DIR=D:\Project Path\input
-WRITE_DIR=D:\Project Path\output
+## Environment
+
+For the scripts to be run locally, the following environment variables must be set:
+
+```bash
+CLASSES_DIR=$PROJECT_PATH\model
+READ_DIR=$PROJECT_PATH\input
+WRITE_DIR=$PROJECT_PATH\output
+```
